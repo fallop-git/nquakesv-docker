@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 as build
+FROM ubuntu:22.04 as build
 ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /build
 
